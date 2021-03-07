@@ -12,7 +12,7 @@
   }
   nav{
     background:rgb(77, 75, 75);
-    height: 75px;
+    height: 50px;
     width: 100%;
     margin-bottom: 50px;
   }
@@ -33,10 +33,10 @@
     padding: 8px 15px;
     border-radius: 3px;
   }
-  a.active,a:hover{
+  /* a.active,a:hover{
     background:rgb(241, 209, 24);
-    transition: .5s;
-  }
+    transition: .5s; 
+  }*/
   .checkbtn{
     font-size: 40px;
     color: white;
@@ -95,10 +95,9 @@
   section > * {
     display: flex;
     justify-content: center;
+    color: rgb(229, 226, 226);
+    padding: 30px 0;
   }
-.titles {
-    padding: 50px 0;
-}
  
    .main_img {
     width: 300px;
@@ -115,4 +114,21 @@
   }
   h1 {
     color: rgb(241, 209, 24);
+    text-decoration: underline;
   }
+
+  p {
+    margin: 0 30px;
+  }
+
+  #bigger_photos {
+    width: 70%;
+    height: 500px;
+  }
+.titles {
+  color: rgb(241, 209, 24) ;
+}
+#coding_photos {
+  width: 70%;
+  height: 300px;
+}
