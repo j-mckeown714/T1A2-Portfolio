@@ -36,7 +36,7 @@
   /* a.active,a:hover{
     background:rgb(241, 209, 24);
     transition: .5s; 
-  }*/
+  } */
   .checkbtn{
     font-size: 40px;
     color: white;
@@ -100,8 +100,8 @@
   }
  
    .main_img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -131,4 +131,160 @@
 #coding_photos {
   width: 70%;
   height: 300px;
+}
+.blog_container {
+width: 80%;
+height: 70vh;
+display: flex;
+margin: auto;
+display: flex;
+align-items:flex-start;
+flex-wrap: wrap;
+justify-content:space-evenly ;
+border-radius: 20px;
+background-color: rgb(218, 217, 214);
+
+}
+.blog_box {
+  border: 3px solid black;
+  height: 30%;
+  display: flex;
+  justify-content:space-evenly ;
+  min-width: 40%;
+  margin:auto;
+
+}
+#blog_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  
+}
+.blog_photo1 {
+  background-image: url("photos/palm_cove.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo2 {
+  background-image: url("photos/cooktown.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo3 {
+  background-image: url("photos/double_island.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo4 {
+  background-image: url("photos/farm.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.blog_photo5 {
+  background-image: url("photos/bowen.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.blog_photo6 {
+  background-image: url("photos/tarzali.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+#div_parra {
+  padding: 6px;
+  border-radius: 5px;
+
+}
+.item_box {
+  border: 3px solid black;
+  background-color:rgb(58, 51, 51) ;
+  height: 75px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+
+}
+.item_div_container {
+ border-radius: 15px;
+  width: 90%;
+  height: 15vh;
+  display: flex;
+  margin: auto;
+  justify-content:space-evenly;
+  align-items: center;
+  background-color: rgb(218, 217, 214);
+  
+}
+#link_div {
+  background-color: rgb(58, 51, 51);
+  margin: 0;
+}
+a {
+  color: white;
+}
+a:hover {
+  color:rgb(241, 209, 24) ;
+}
+.photo_div1 {
+  width: 300px;
+  height: 300px;
+  background: url("photos/coding_photo.png") no-repeat center;
+  background-size: auto 100%;
+  display: flex;
+}
+.photo_div2 {
+  width: 300px;
+  height: 300px;
+  background: url("photos/website_screenshot.png") no-repeat center;
+  background-size: auto 100%;
+  display: flex;
+}
+.photo_div3 {
+  width: 300px;
+  height: 300px;
+  background: url("photos/facebook.png") no-repeat center;
+  background-size: auto 100%;
+  display: flex;
+}
+.end_page {
+  padding-bottom: 80px;
+}
+.contact_photo1 {
+  width: 100px;
+  height: 100px;
+  background: url("photos/LinkedIn.png") no-repeat center;
+  background-size: auto 100%;
+  display: flex;
+  border-radius: 10px;
+}
+.contact_photo2 {
+  width: 100px;
+  height: 100px;
+  background: url("photos/Phone.png") no-repeat center;
+  background-size: auto 100%;
+  display: flex;
+  border-radius: 10px;
+}
+.contact_photo3 {
+  width: 100px;
+  height: 100px;
+  background: url("photos/email.png") no-repeat center;
+  background-size: auto 100%;
+  display: flex;
+  border-radius: 10px;
+}
+.contact_photo4 {
+  width: 100px;
+  height: 100px;
+  background: url("photos/GitHub.png") no-repeat center;
+  background-size: auto 100%;
+  display: flex;
+  border-radius: 10px;
 }
