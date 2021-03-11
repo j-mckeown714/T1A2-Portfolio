@@ -1,0 +1,18 @@
+@media screen and (min-width: 850px){
+.main_body{
+    height: 90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 3px solid red; */
+}
+.titles {
+    order:2;
+}
+.main_img{
+    order:1;
+}
+
+    }

@@ -4,10 +4,11 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-color: rgb(77, 75, 75);
+    
   }
   body{
     font-family: 'Source Code Pro', monospace;
+    background-color: rgb(77, 75, 75);
 
   }
   nav{
@@ -49,12 +50,12 @@
   #check{
     display: none;
   }
-  @media (max-width: 952px){
+  @media screen and(max-width: 952px){
     nav ul li a{
       font-size: 16px;
     }
   }
-  @media (max-width: 858px){
+  @media screen and (max-width: 858px){
     .checkbtn{
       display: block;
     }
@@ -127,12 +128,13 @@
   }
 .titles {
   color: rgb(241, 209, 24) ;
+  margin-top:50px ;
 }
-#coding_photos {
-  width: 70%;
+/* #coding_photos {
+  width: 40%;
   height: 300px;
-}
-.blog_container {
+} */
+._container {
 width: 80%;
 height: 70vh;
 display: flex;
@@ -159,6 +161,7 @@ background-color: rgb(218, 217, 214);
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  
   
 }
 .blog_photo1 {
@@ -195,8 +198,10 @@ background-color: rgb(218, 217, 214);
   background-position: center;
 }
 #div_parra {
-  padding: 6px;
+  padding: 4px 5px;
   border-radius: 5px;
+  background-color: rgb(77, 75, 75);
+
 
 }
 .item_box {
@@ -288,3 +293,38 @@ a:hover {
   display: flex;
   border-radius: 10px;
 }
+.section_about {
+
+}
+.section_about1 {
+   display: flex;
+   flex-wrap: wrap;
+}
+.main_body {
+  display: flex;
+  height: 120vh;
+  flex-wrap: wrap;
+}
+.spacing {
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.contact_img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 10%;
+  margin-bottom: 80px;
+  margin-top: 45px; 
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+
+img src="photos/github.png" alt=
+width: 100%;

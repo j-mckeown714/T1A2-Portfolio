@@ -1,0 +1,43 @@
+@media screen and (min-width: 850px){
+    .blog_photo1 {
+        background-color: none;
+        background-image: none;
+    }
+    .blog_photo2 {
+        background-color: none;;
+        background-image: none;
+    }
+    .blog_photo3 {
+        background-color: none;
+        background-image: none;
+    }
+    .blog_photo4 {
+        background-color: none;;
+        background-image: none;
+    }
+    .blog_photo5 {
+        background-color: none;;
+        background-image: none;
+    }
+    .blog_photo6 {
+        background-color: none;;
+        background-image: none;
+    }
+    .blog_box {
+        display: inline-block;
+        margin: 0;
+        min-width: 0;
+        border: none;
+        background-color: none;
+    }
+    .blog_container {
+        display: inline;
+        background-color: rgb(77, 75, 75);
+    }
+    #blog_div {
+        display: inline-block;
+    }
+    #div_parra {
+        background-color: none;
+    }
+}

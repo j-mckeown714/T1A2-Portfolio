@@ -1,0 +1,22 @@
+@media screen and (min-width: 850px){
+    .main_body{
+        height: 90vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    p {
+        width: 400px;
+    }
+    img {
+        width: 300px;
+    }
+    .education_spacing {
+        display: flex;
+        width: auto;
+        }
+
+}

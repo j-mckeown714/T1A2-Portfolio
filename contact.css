@@ -1,0 +1,25 @@
+@media screen and (min-width: 850px){
+    .main_body{
+        height: 90vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+   .main_photo_div {
+       width: 50%;
+       margin: 0;
+       display: flex;
+   }
+   #mobile_contact {
+       display: flex;
+       flex-direction: column;
+       
+
+   }
+   div {
+    display: inline-block;
+    flex-direction: column;
+   }
+}

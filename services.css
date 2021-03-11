@@ -1,0 +1,21 @@
+@media screen and (min-width: 850px){
+    .main_body{
+        height: 90vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #spacing {
+        display: flex;
+        width: 40%;
+        
+        }
+    p {
+        width: 400px;
+    }
+   .coding_photos {
+       width: 40%;
+   }
+}
