@@ -33,6 +33,11 @@
     .blog_container {
         display: inline;
         background-color: rgb(77, 75, 75);
+        margin-left: 70px;
+        /* width: 40%; */
+        text-align: center;
+        margin-right: 0;
+        padding-right: 0%;
     }
     #blog_div {
         display: inline-block;
@@ -40,4 +45,10 @@
     #div_parra {
         background-color: none;
     }
+}
+@media screen and (max-width: 850px){
+    .social_bar {
+        width: 1px;
+    }
+
 }
