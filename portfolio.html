@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css"> <!--Main style sheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> <!-- Hamburger menu-->
+    <link rel="stylesheet" href="blog.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <nav>
+    <nav> <!-- Hamburger menu (tablet & mobile) and main inline nav (desktop) -->
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
           <i class="fas fa-bars"></i>
@@ -25,7 +26,7 @@
         </ul>
       </nav>
       <hr>
-      <nav class="social_bar">
+      <nav class="social_bar"> <!--Social media side bar-->
         <ul>
         <li class="social_li"><a class="social_a fab fa-linkedin-in linkedin" href="#"><i><span></span></i></a></li>
         <li class="social_li"> <a class="social_a fab fa-github github" href="#"></a><i><span></span></i></li>
@@ -36,23 +37,26 @@
       <nav class="item_div_container">
           <div class="item_box"><a href="#static_website"><p id="link_div">Static Website</p></a></div>
           <div class="item_box"><a href="#facebook"><p id="link_div"> Facebook Marketing</p></a></div>
-          <div class="item_box"><a href="#design"><p id="link_div">Creative Cloud Design</p></a></div>
+          <div class="item_box"><a href="#design"><p id="link_div">Creative Cloud </p></a></div>
       </nav>
+      <nav class="resume_container">
+      <div class="resume_box"><a href="data/Resume of Jack McKeown 2017.pdf" download="Jack McKeown's resume"><p id="link_div">Resume</p></a></div>
+    </nav>
       <h3 class="titles" id="static_website">Static Website</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo, cum, sunt, dolor alias perspiciatis ipsum natus tempora maiores doloribus quidem! Totam fuga cupiditate ea, veniam a explicabo corporis adipisci.</p>
+      <p>I have experince and passion in making static websites. I use HTML and CSS to design engaging content that is specific to your target audience. </p>
       <div class="main_photo_div">
-        <div class="photo_div1"></div>
+        <img id="bigger_photos" src="photos/code.png" alt="photo of CSS code">
       </div>
       <div class="main_photo_div">
-        <div class="photo_div2"></div>
+        <img id="bigger_photos" src="photos/coral_trout.png" alt="Good looking website">
       </div>
       <h3 class="titles" id="facebook">Facebook Marketing</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo, cum, sunt, dolor alias perspiciatis ipsum natus tempora maiores doloribus quidem! Totam fuga cupiditate ea, veniam a explicabo corporis adipisci.</p>
+      <p>I have experience running 7+ individual Coffee Club stores simultaneously in the Brisbane region. All content is designed for high viewer engagement and in turn resulting in higher revenue for you.</p>
       <div class="main_photo_div">
-      <div class="photo_div3"></div>
+      <img class="bigger_photos" src="photos/facebook.png" alt="Coffee Club facebook page">
     </div>
       <h3 class="titles" id="design">Creative Cloud Design</h3>
-      <p class="end_page">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo, cum, sunt, dolor alias perspiciatis ipsum natus tempora maiores doloribus quidem! Totam fuga cupiditate ea, veniam a explicabo corporis adipisci.</p>
+      <p>Through my marketing career, I have used Abode Photoshop, Adobe Illustrator nad Adobe InDesign. Projects include map making, brochure design, photo manipulation and more. </p>
     </section>
 </body>
 </html>
