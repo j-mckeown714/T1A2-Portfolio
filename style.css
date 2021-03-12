@@ -1,145 +1,105 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    text-shadow: 2px 2px 2px black;
-    
-  }
-  body{
-    font-family: 'Source Code Pro', monospace;
-    background-color: rgb(77, 75, 75);
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  text-shadow: 2px 2px 2px black;
+}
 
-  }
-  nav{
-    background:rgb(77, 75, 75);
-    height: 50px;
-    width: 100%;
-    margin-bottom: 50px;
-  }
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: rgb(77, 75, 75);
+}
 
-  nav ul{
-    /* float: right; */
+nav {
+  background:rgb(77, 75, 75);
+  height: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+}
 
-  }
-  nav ul li{
-    margin: 0 7px;
-    display: inline-block;
-    line-height: 75px;
-    
-  }
-  nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 8px 15px;
-    border-radius: 3px;
-  }
-  /* a.active,a:hover{
-    background:rgb(241, 209, 24);
-    transition: .5s; 
-  } */
-  .checkbtn{
-    font-size: 40px;
-    color: white;
-    float: right;
-    line-height: 75px;
-    margin-right: 35px;
-    cursor: pointer;
-    display: none;
-  }
-  #check{
-    display: none;
-  }
-  @media screen and(max-width: 952px){
-    nav ul li a{
-      font-size: 16px;
-    }
-  }
-  @media screen and (max-width: 858px){
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: rgb(77, 75, 75);
-      top: 75px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    a:hover,a.active{
-      background: none;
-      color: rgb(241, 209, 24);
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-  }
-  section{
-        height: 100px;
-        display: block;
-        justify-content: center;
-        align-items: center;
-         
-  }
+nav ul li {
+  margin: 0 7px;
+  display: inline-block;
+  line-height: 75px;
+}
 
-  section > * {
-    display: flex;
-    justify-content: center;
-    color: rgb(229, 226, 226);
-    padding: 30px 0;
-  }
- 
-   .main_img {
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    border-radius: 10%;
-    margin-bottom: 80px;
-    margin-top: 45px;  
-  }
-  hr {
-    opacity: 0%;
-  }
-  h1 {
-    color: rgb(241, 209, 24);
-    text-decoration: underline;
-  }
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
 
-  p {
-    margin: 0 30px;
-    text-shadow: 1px 1px 1px black;
-    background-color: rgb(56, 49, 49);
-    border-radius: 20px;
-    padding: 15px;
-  }
 
-  #bigger_photos {
+.checkbtn { /* Burger button */
+  font-size: 40px;
+  color: white;
+  float: right;
+  line-height: 75px;
+  margin-right: 35px;
+  cursor: pointer;
+  display: none;
+}
+
+#check { /* get rid of checkbox */
+  display: none;
+}
+
+
+section{
+  height: 100px;
+  display: block;
+  justify-content: center;
+  align-items: center;     
+}
+
+section > * {
+  display: flex;
+  justify-content: center;
+  color: rgb(229, 226, 226);
+  padding: 30px 0;
+}
+
+.main_img { /* size and alignment for main images used */
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 10%;
+  margin-bottom: 80px;
+  margin-top: 45px;  
+}
+
+hr {
+  opacity: 0%;
+}
+
+h1 {
+  color: rgb(241, 209, 24);
+  text-decoration: underline;
+}
+
+p {
+  margin: 0 30px;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgb(56, 49, 49);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+  #bigger_photos { /* Bigger size for portfolio photos */
     width: 70%;
-    /* height: 500px; */
   }
+
 .titles {
   color: rgb(241, 209, 24) ;
   margin-top:50px ;
 }
-/* #coding_photos {
-  width: 40%;
-  height: 300px;
-} */
-.blog_container {
+
+.blog_container { /* Container for blog nav */
   width: 80%;
   height: 70vh;
   display: flex;
@@ -150,64 +110,66 @@
   justify-content:space-evenly ;
   border-radius: 20px;
   background-color: rgb(218, 217, 214);
-  
-  }
-  .blog_box {
-    border: 3px solid black;
-    height: 30%;
-    display: flex;
-    justify-content:space-evenly ;
-    min-width: 40%;
-    margin:auto;
-  
-  }
-  #blog_div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    
-  }
-  .blog_photo1 {
-    background-image: url("photos/palm_cove.jpg") ;
-    background-size: 100% 100%;
-    background-position: center;
-  }
-  
-  .blog_photo2 {
-    background-image: url("photos/cooktown.jpg") ;
-    background-size: 100% 100%;
-    background-position: center;
-  }
-  
-  .blog_photo3 {
-    background-image: url("photos/double_island.jpg") ;
-    background-size: 100% 100%;
-    background-position: center;
-  }
-  
-  .blog_photo4 {
-    background-image: url("photos/farm.jpg") ;
-    background-size: 100% 100%;
-    background-position: center;
-  }
-  .blog_photo5 {
-    background-image: url("photos/bowen.jpg") ;
-    background-size: 100% 100%;
-    background-position: center;
-  }
-  .blog_photo6 {
-    background-image: url("photos/tarzali.jpg") ;
-    background-size: 100% 100%;
-    background-position: center;
-  }
-  #div_parra {
-    padding: 6px;
-    border-radius: 5px;
-  
   }
 
-.item_box {
+.blog_box { /* Container for individual blog link */
+  border: 3px solid black;
+  height: 30%;
+  display: flex;
+  justify-content:space-evenly ;
+  min-width: 40%;
+  margin:auto;
+}
+
+#blog_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.blog_photo1 { /* Image needed to be put in via div and background image, otherwise would be blurry */
+  background-image: url("photos/palm_cove.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo2 { /* Image needed to be put in via div and background image, otherwise would be blurry */
+  background-image: url("photos/cooktown.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo3 { /* Image needed to be put in via div and background image, otherwise would be blurry */
+  background-image: url("photos/double_island.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo4 { /* Image needed to be put in via div and background image, otherwise would be blurry */
+  background-image: url("photos/farm.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo5 { /* Image needed to be put in via div and background image, otherwise would be blurry */
+  background-image: url("photos/bowen.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.blog_photo6 { /* Image needed to be put in via div and background image, otherwise would be blurry */
+  background-image: url("photos/tarzali.jpg") ;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#div_parra {
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.item_box { /* Sets alignments for portfolio nav individual boxes */
   border: 3px solid black;
   background-color:rgb(58, 51, 51) ;
   height: 75px;
@@ -215,11 +177,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
- 
-
 }
-.item_div_container {
+
+.item_div_container { /*  Sets alignments for the container for whole portfolio nav  */
  border-radius: 15px;
   width: 90%;
   height: 15vh;
@@ -228,91 +188,38 @@
   justify-content:space-evenly;
   align-items: center;
   background-color: rgb(218, 217, 214);
-  
 }
-#link_div {
+
+#link_div { /* Sets parameters for portfolio nav text background and margin  */
   background-color: rgb(58, 51, 51);
   margin: 0;
 }
+
 a {
   color: white;
 }
+
 a:hover {
   color:rgb(241, 209, 24) ;
 }
-.photo_div1 {
-  width: 300px;
-  height: 300px;
-  background: url("photos/coding_photo.png") no-repeat center;
-  background-size: auto 100%;
-  display: flex;
-}
-.photo_div2 {
-  width: 300px;
-  height: 300px;
-  background: url("photos/website_screenshot.png") no-repeat center;
-  background-size: auto 100%;
-  display: flex;
-}
-.photo_div3 {
-  width: 300px;
-  height: 300px;
-  background: url("photos/facebook.png") no-repeat center;
-  background-size: auto 100%;
-  display: flex;
-}
 
-.contact_photo1 {
-  width: 100px;
-  height: 100px;
-  background: url("photos/LinkedIn.png") no-repeat center;
-  background-size: auto 100%;
-  display: flex;
-  border-radius: 10px;
-}
-.contact_photo2 {
-  width: 100px;
-  height: 100px;
-  background: url("photos/Phone.png") no-repeat center;
-  background-size: auto 100%;
-  display: flex;
-  border-radius: 10px;
-}
-.contact_photo3 {
-  width: 100px;
-  height: 100px;
-  background: url("photos/email.png") no-repeat center;
-  background-size: auto 100%;
-  display: flex;
-  border-radius: 10px;
-}
-.contact_photo4 {
-  width: 100px;
-  height: 100px;
-  background: url("photos/GitHub.png") no-repeat center;
-  background-size: auto 100%;
-  display: flex;
-  border-radius: 10px;
-}
-.section_about {
-
-}
-.section_about1 {
+/* .section_about1 {
    display: flex;
    flex-wrap: wrap;
-}
+} */
 .main_body {
   display: flex;
   height: 120vh;
   flex-wrap: wrap;
 }
+
 .spacing {
-display: flex;
-width: 100%;
-flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.contact_img {
+.contact_img { /* Sets parameters for contact images */
   width: 200px;
   height: 200px;
   display: flex;
@@ -324,61 +231,97 @@ flex-wrap: wrap;
   margin-right: 100px;
   margin-left: 100px;
 }
-.social_bar {
+
+.social_bar { /* Social side bar */
   position: fixed;
-  transition: all .5s linear;
   width: 70px;
   margin-top: 150px;
-  
-  
 }
 
-.social_li {
+.social_li { /* Social side bar */
   height: 50px;
   position: relative;
-  
-  
 }
-.social_a {
+
+.social_a { /* Social side bar */
   color: rgb(231, 229, 229);
   height: 100%;
   width: 100%;
   display: block;
   line-height: 50px;
   padding-left: 25%;
-  border-bottom: 1px solid black;
   box-shadow: 2px 2px 2px black;
-
 }
-.linkedin {
+
+.linkedin { /* Individual item for social bar*/
   background-color: rgb(42, 42, 245);
   padding-right: 50px;
-
 }
-.github {
+
+.github {/* Individual item for social bar*/
   background-color: grey;
   padding-right: 50px;
 }
-.resume_container {
+
+.resume_container { /* Resume container properties */
   border-radius: 15px;
-   width: 25%;
-   height: 15vh;
-   display: flex;
-   margin: auto;
-   justify-content:space-evenly;
-   align-items: center;
-   background-color: rgb(218, 217, 214);
-   margin-top: 30px;
-  }
-  .resume_box {
-    border: 3px solid black;
-    background-color:rgb(58, 51, 51) ;
-    height: 75px;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-img {
+  width: 25%;
+  height: 15vh;
+  display: flex;
+  margin: auto;
+  justify-content:space-evenly;
+  align-items: center;
+  background-color: rgb(218, 217, 214);
+  margin-top: 30px;
+}
+
+.resume_box { /* Resume inside box properties */
+  border: 3px solid black;
+  background-color:rgb(58, 51, 51) ;
+  height: 75px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img { /* Shadowing for all images */
   box-shadow: 1px 1px 1px black;
+}
+
+@media screen and(max-width: 952px){
+  nav ul li a{
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 858px){ /* Main nav properties */
+  .checkbtn{ 
+    display: block;
+}
+
+ul {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgb(77, 75, 75);
+  top: 75px;
+  left: -100%;
+  text-align: center;
+  transition: all .5s;
+}
+nav ul li {
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+}
+nav ul li a {
+  font-size: 20px;
+}
+a:hover,a.active {
+  background: none;
+  color: rgb(241, 209, 24);
+}
+#check:checked ~ ul {
+  left: 0;
+}
 }
