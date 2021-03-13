@@ -1,4 +1,4 @@
-* {
+* { /* Sets all to default and shadowing for text */
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -7,12 +7,12 @@
   text-shadow: 2px 2px 2px black;
 }
 
-body {
+body { /* Sets font family and background colour */
   font-family: 'Source Code Pro', monospace;
   background-color: rgb(77, 75, 75);
 }
 
-nav {
+nav { /* Properties for hamburger menu */
   background:rgb(77, 75, 75);
   height: 50px;
   width: 100%;
@@ -77,12 +77,12 @@ hr {
   opacity: 0%;
 }
 
-h1 {
+h1 { /* Sets attributes for h1 */
   color: rgb(241, 209, 24);
   text-decoration: underline;
 }
 
-p {
+p { /* Sets attributes for paragraphs */
   margin: 0 30px;
   text-shadow: 1px 1px 1px black;
   background-color: rgb(56, 49, 49);
@@ -90,7 +90,7 @@ p {
   padding: 15px;
 }
 
-  #bigger_photos { /* Bigger size for portfolio photos */
+  .bigger_photos { /* Bigger size for portfolio photos */
     width: 70%;
   }
 
@@ -121,7 +121,7 @@ p {
   margin:auto;
 }
 
-#blog_div {
+.blog_div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,8 +165,15 @@ p {
 }
 
 #div_parra {
-  padding: 6px;
+  padding: 1px;
   border-radius: 5px;
+  font-size: 12px;
+}
+
+.div_parra {
+  padding: 1px;
+  border-radius: 5px;
+  font-size: 12px;
 }
 
 .item_box { /* Sets alignments for portfolio nav individual boxes */
@@ -195,25 +202,31 @@ p {
   margin: 0;
 }
 
+
 a {
   color: white;
 }
 
 a:hover {
-  color:rgb(241, 209, 24) ;
+  color:rgb(241, 209, 24);
 }
 
-/* .section_about1 {
-   display: flex;
-   flex-wrap: wrap;
-} */
-.main_body {
+.main_body { /* Sets height and properties for most page */
   display: flex;
   height: 120vh;
   flex-wrap: wrap;
 }
+.main_body_contact { /* Sets height and properties for contact page */
+  display: flex;
+  height: 60vh;
+  flex-wrap: wrap;
+}
+#second_section_contact {
+  margin-top: 200px;
 
-.spacing {
+}
+
+.spacing { /* Sets spacing for h1 in services page */
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -289,7 +302,7 @@ img { /* Shadowing for all images */
   box-shadow: 1px 1px 1px black;
 }
 
-@media screen and(max-width: 952px){
+@media screen and (max-width: 952px){
   nav ul li a{
     font-size: 16px;
 }
